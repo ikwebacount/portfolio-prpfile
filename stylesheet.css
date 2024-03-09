@@ -166,3 +166,19 @@ a:hover
     font-size: 8px;
     padding-bottom: 5px;
 }
+
+.holleMessage p {
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.useLung li,
+.lungLevel li,
+.toWont li {
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+  

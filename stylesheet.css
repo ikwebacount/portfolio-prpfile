@@ -4,7 +4,6 @@
     background-color: rgb(65, 68, 72);
     position: fixed;
     z-index: 10;
-    opacity: 0.8;
 }
 
 .taiotru {
@@ -15,24 +14,19 @@
     display: block;
 }
 
-.uee {
-    line-height: 76px;
-    height: 100%;
-    color: white;
-    background-color: rgb(96, 99, 104);
-    float: right;
-    display: inline;
-    padding: 0px 5px;
+.taiotru h2:hover{
+    color: rgb(56, 148, 230);
 }
 
-.profile {    
-    color: rgb(145, 29, 35);
+.profile {  
+    font-size: 25px; 
+    color: rgb(255, 52, 52);
 }
 
 .main-inner1 {
     width: 100%;
     text-align: center;
-    background-image: url(背景.png);
+    background-image: url(./img/背景.png);
     background-size: cover;
 }
 
@@ -76,8 +70,9 @@
     margin:  30px 0px 10px 0px;
 }
 
-.zikoshoukai {
+.holleMessage {
     display: flex;
+    justify-content: space-between;
 }
 
 .kao {
@@ -87,43 +82,56 @@
     border: 1px solid gray;
 }
 
+.holle h3,
+.useLung h3,
+.lungLevel h3,
+.toWont h3{
+    margin-top: 40px;
+    font-size: 1.8rem;
+}
+
+.holleMessage li,
+.useLung li,
+.lungLevel li,
+.toWont li{
+    margin: 20px 0;
+}
+
+.main-inner2-bottom{
+    margin-bottom: 80px
+}
+
 .main-inner3 {
     text-align: center;
+    background: linear-gradient(180deg,rgb(250, 244, 238),rgb(113, 147, 225));
+    height: 200px;
 }
 
 .main-inner3 h2 {
+    font-size: 1.8rem;
     font-weight: normal;
-    margin-top: 100px;
 }
 
 .main-inner3 h3 {
+    font-size: 1.8rem;
     font-weight: normal;
-    margin-bottom: 50px;
 }
 
 .main-inner3 a {
-    box-shadow: 0px 7px rgb(43, 90, 73);
-    padding: 15px 40px;
-    color: white;
-    background-color: rgb(69, 147, 121);
+    display: inline-block;
+    font-size: 1.8rem;
+    box-shadow: 0 10px 0 0 black;
+    padding: 5px 10px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
     border-radius: 5px;
-    margin-bottom: 80px;
-}
-
-.main-inner3-bottom {
-    padding-bottom: 60px;
-}
-
-a {
-    opacity: 0.8;
 }
 
 a:hover
 ,.main-inner1-btn:hover{
     opacity: 1;
 }
-
-
 
 .header-inner1-btn:active
 ,.main-inner2-btn:active {
@@ -143,16 +151,18 @@ a:hover
 }
 
 .hooter-inner1  {
+    background-color: rgb(65, 68, 72);
     padding: 0px 80px;
     border-top: 1px solid rgb(209, 208, 208);
 }
 
 .hooter-inner1 h2 {
-    padding-top: 20px;
+    color: white;
+    padding-top: 8px;
 }
 
 .hooter-inner1 p {
-    font-size: 12px;
-    padding-bottom: 20px;
+    color: white;
+    font-size: 8px;
+    padding-bottom: 5px;
 }
-
